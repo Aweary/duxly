@@ -1,0 +1,27 @@
+{
+  "name": "duxly",
+  "version": "0.0.1",
+  "description": "Map actions to reducers in redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && mocha test",
+    "build": "rm -rf ./lib && mkdir lib && babel index.js --out-file ./lib/index.js --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aweary/duxly.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Brandon Dail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aweary/duxly/issues"
+  },
+  "homepage": "https://github.com/Aweary/duxly#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
